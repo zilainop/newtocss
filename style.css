@@ -1,7 +1,7 @@
 /* types of selectors */
 /*  below is a universal selector */
 *{
-  color: purple;
+  color: purple; background-color: rgb(247, 247, 247); font-family: "Times New Roman", serif; font-size:22;
 }
 
 /* bleow is the type selector */
@@ -36,7 +36,7 @@ div,.alert-text,.severe-alert{
 }
 
 .subsection#preview {
-  color: rgb(9, 9, 211);
+  color: rgba(9, 9, 211,33);
 }
 
 /* combinators */
