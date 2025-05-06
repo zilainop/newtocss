@@ -1,6 +1,48 @@
-/* styles.css */
+/* types of selectors */
+/*  below is a universal selector */
+*{
+  color: purple;
+}
 
+/* bleow is the type selector */
 div {
-    color: rgb(238, 16, 16);
+  color: rgb(255, 255, 255);
+}
+/* below is the class selector */
+.alert-text{
+  color: rgb(0, 255, 106);
+}
+.severe-alert{
+  color: rgb(94, 255, 0);
+}
+
+/*  below should be an id selector */
+#grandfather {
+  background-color: blue; text-align: center; color: yellow;
+}
+
+/* bleow should be the group selector */
+div,.alert-text,.severe-alert{
+  color: red;
+}
+.subsection.header{
+  color: aqua;
+}
+
+/* below is a chian selector. */
+
+.subsection.header {
+  color: rgb(0, 255, 13);
+}
+
+.subsection#preview {
+  color: rgb(9, 9, 211);
+}
+
+/* combinators */
+/* there are 4 types but under is the descendant combinator */
+
+.ancestor .content{
+  color: rgb(255, 255, 255); background: blue;
   }
   
