@@ -1,8 +1,10 @@
 /* types of selectors */
 /*  below is a universal selector */
 *{
-  color: purple; background-color: rgb(247, 247, 247); font-family: "Times New Roman", serif; font-size:22;
-}
+  color: rgb(0, 0, 0); background-color:
+   rgb(247, 247, 247); 
+   font-family: "Times New Roman", serif; font-size:22px; font-weight: 400;
+   text-align: center;
 
 /* bleow is the type selector */
 div {
